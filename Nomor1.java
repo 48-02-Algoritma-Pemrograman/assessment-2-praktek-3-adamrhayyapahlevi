@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Nomor1 {
 
+
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
@@ -24,8 +25,9 @@ public class Nomor1 {
 
         /* Pekerjaan anda berakhir sini */
 
-        System.out.println(Nomor1.class.getDeclaredMethods().length); 
+        System.out.println(Nomor1.class.getDeclaredMethods().length);
     }
+    
     public static double Luassegitiga (int alas, int tinggi) {
         return 0.5 * alas * tinggi;
     }
