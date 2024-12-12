@@ -54,11 +54,11 @@ public class Nomor2 {
             System.out.print("Masukan pilihan packing [1/2/3]: ");
             int Packing = scanner.nextInt();
 
-            // Menghitung total harga untuk hamper dan packing yang dipilih
+            
             double totalPaket = hitungTotalPaket(Hampers, Packing);
-            daftarPembelian.add(totalPaket);  // Menambahkan harga paket ke daftar pembelian
+            daftarPembelian.add(totalPaket);  
 
-            // Menanyakan apakah ingin input lagi
+            
             System.out.print("Input lagi (Y/N)?: ");
             String input = scanner.next();
             if (input.equalsIgnoreCase("N")) {
